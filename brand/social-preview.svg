@@ -6,9 +6,9 @@
       <path d="M14 12.3 L17.6 15.8 L14 19.3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
     </mask>
   </defs>
-  <rect width="1280" height="640" fill="#fbf7f2"/>
+  <rect width="1280" height="640" fill="#ffffff"/>
   <g transform="translate(120 196) scale(4.5)"><rect x="2" y="4" width="28" height="24" rx="6" fill="#b4232c" mask="url(#sm)"/></g>
   <text x="290" y="300" font-family="SF Mono, ui-monospace, JetBrains Mono, Menlo, monospace" font-size="96" font-weight="650" letter-spacing="-3" fill="#1a2133">sealctl</text>
-  <text x="124" y="420" font-family="-apple-system, system-ui, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1" fill="#1a2133">Your agents run the code. <tspan fill="#b4232c">Your phone holds the keys.</tspan></text>
-  <text x="124" y="478" font-family="-apple-system, system-ui, Helvetica Neue, Arial, sans-serif" font-size="28" fill="#6b7183">Secrets for AI coding agents, approved on your phone. Recoverable from 24 words on paper.</text>
+  <text x="124" y="420" font-family="-apple-system, system-ui, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1" fill="#1a2133">Keys for developers <tspan fill="#b4232c">and their AI agents</tspan></text>
+  <text x="124" y="478" font-family="-apple-system, system-ui, Helvetica Neue, Arial, sans-serif" font-size="28" fill="#5f6677">API keys, SSH keys, encrypted volumes and backups, approved on your phone.</text>
 </svg>

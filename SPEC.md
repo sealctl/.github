@@ -39,9 +39,11 @@ No `FUNDING.yml`. sealctl is paid for with `sealctl buy`; a GitHub Sponsors butt
 ## Brand assets
 
 - `brand/tokens.css` is the source of truth for colour and type. The website copies it byte for byte and its CI fails on a difference; the apps generate their colour sets from it (Swift asset catalogue, Kotlin `Color` constants) with a script in the `app` repository.
+- Palette: cool neutrals (white and blue-grey surfaces, navy ink) with one sealing-wax crimson, a clearer red in dark mode. No cream, beige or coral: the warm neutrals were dropped to keep the brand distinct from other AI tools.
 - Change a colour here first, in one pull request that updates `tokens.css`, the table in `brand/README.md` and the contrast figures. Check contrast (WCAG AA) in both themes before merging.
 - Candidates to add when a second consumer needs them (they live in the website's `site.css` today): `--ok`, `--ok-soft`, `--wait`, `--focus`, `--shadow`, `--shadow-lg`, terminal colours. The brand README already says semantic colours stay separate from the accent; keep that.
 - SVGs are hand-edited and kept small (no editor metadata). After any change, `brand/export.sh` regenerates `avatar.png` and `social-preview.png` with `rsvg-convert` (or headless Chrome for the social preview's text), and the PNGs are committed with the SVG.
+- The social preview carries the website's headline and summary ("Keys for developers and their AI agents"; "API keys, SSH keys, encrypted volumes and backups, approved on your phone."); update it when they change.
 - Fonts: none are bundled; the brand uses system fonts. The social preview PNG is rendered on macOS so SF Mono is used.
 
 ## Community health files

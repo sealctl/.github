@@ -9,7 +9,7 @@
 | File | Use |
 | --- | --- |
 | `mark.svg` | The mark on light backgrounds (sealing wax `#b4232c`) |
-| `mark-dark.svg` | The mark on dark backgrounds (`#f0675c`) |
+| `mark-dark.svg` | The mark on dark backgrounds (`#ff5c63`) |
 | `mark-mono.svg` | One colour, ink `#1a2133`, for print and places that allow no colour |
 | `app-icon.svg` | App icon, 1024 px, full bleed; the stores round the corners. The window is dropped because the icon tile plays its part |
 | `avatar.png` | 512 px avatar for GitHub and other profiles |
@@ -25,16 +25,17 @@
 
 ## Colour
 
-One accent, sealing wax, on paper and ink neutrals. No gradients. All values are in `tokens.css`.
+One accent, sealing wax, on cool neutrals: white and blue-grey surfaces, navy ink. No cream or beige, no gradients. All values are in `tokens.css`.
 
 | Token | Light | Dark |
 | --- | --- | --- |
-| Paper (background) | `#fbf7f2` | `#0e121a` |
+| Paper (background) | `#ffffff` | `#0e121a` |
+| Surface (cards) | `#f6f7f9` | `#151a24` |
 | Ink (text) | `#1a2133` | `#eef0f5` |
-| Accent | `#b4232c` | `#f0675c` |
+| Accent | `#b4232c` | `#ff5c63` |
 | Text on accent | `#ffffff` | `#12151c` |
 
-Contrast: accent text on paper 6.1 : 1 (light) and 6.1 : 1 (dark); button labels on the accent 6.5 : 1 and 5.9 : 1. All pass WCAG AA.
+Contrast: accent text on paper 6.5 : 1 (light) and 6.2 : 1 (dark); button labels on the accent 6.5 : 1 and 6.1 : 1; muted text on `surface-2` 5.0 : 1 and 5.8 : 1. All pass WCAG AA.
 
 Semantic colours (passing tests, warnings) stay separate from the accent: green means success, never the brand.
 

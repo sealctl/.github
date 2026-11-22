@@ -26,7 +26,7 @@ No `FUNDING.yml`. sealctl is paid for with `sealctl buy`; a GitHub Sponsors butt
 
 ## Profile README
 
-- One mark (light and dark through `<picture>`), the headline, one paragraph, an install line, the repository table, the security line. Under 30 lines.
+- No mark: the org avatar already shows it above the README. The headline, one paragraph, an install line, the repository table, the security line. Under 30 lines.
 - Same claims rules as the website: true and checkable; no counts, badges or quotes.
 - Add a line on the closed part: "The relay that carries sealed requests is closed source. Its API is public in [`docs/protocol.md`](https://github.com/sealctl/sealctl/blob/main/docs/protocol.md#relay-api), and your data opens without it."
 - Add the website and `security.txt` once `sealctl.com` is live.

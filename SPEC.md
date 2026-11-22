@@ -97,6 +97,7 @@ Keep today's text and add:
 - Supported versions: the latest release only.
 - The `security.txt` URL.
 - "What happens next": acknowledgement within three working days, a fix plan within 14 days for confirmed issues, a GitHub advisory and CVE when the fix ships.
+- Safe harbour (added): good-faith research under the policy is treated as authorised; own phone, words and machines only; no other people's data; no denial-of-service or load tests; no testing of Cloudflare, Paddle, Apple or Google; 90 days before publishing by default. The same paragraph, shortened, is on sealctl.com/security#report and in `sealctl/SECURITY.md`.
 
 ## Manual GitHub settings
 

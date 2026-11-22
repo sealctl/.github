@@ -16,7 +16,7 @@ This repository holds the `sealctl` organisation's public profile, the brand, an
 | `brand/social-preview.svg`, `.png` | 1280×640 link preview | Exists |
 | `brand/export.sh` | Renders the PNGs from the SVGs | To add |
 | `SECURITY.md` | Vulnerability reporting | Exists; to update |
-| `CONTRIBUTING.md` | How to contribute | To add |
+| `CONTRIBUTING.md` | How to contribute | Exists (code PRs closed for now) |
 | `CODE_OF_CONDUCT.md` | Contributor Covenant 2.1 | To add |
 | `SUPPORT.md` | Where to ask what | To add |
 | `.github/ISSUE_TEMPLATE/` | Bug and feature forms, contact links | To add |
@@ -51,6 +51,8 @@ No `FUNDING.yml`. sealctl is paid for with `sealctl buy`; a GitHub Sponsors butt
 These apply to every repository in the org that has no file of its own. A repository's own file wins.
 
 ### `CONTRIBUTING.md`
+
+**Now (2026-11-22):** outside code pull requests are not accepted in any repository; pull request creation is limited to collaborators (`sealctl`, `app`, `website`, `.github`, `homebrew-tap`), issues stay open. The org `CONTRIBUTING.md`, `sealctl/CONTRIBUTING.md` and `app/CONTRIBUTING.md` say: issues and private security reports welcome; code pull requests not accepted for now, because the contribution terms (CLA, AGPL section 7 permission) are not settled. The list below is the plan for when they open.
 
 - Start with an issue for anything larger than a typo, so nobody writes code that won't be merged.
 - Specs come before code: changes to the protocol, key handling, the store format or the relay API start as a pull request to `docs/protocol.md`.

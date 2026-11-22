@@ -9,7 +9,7 @@
 
 sealctl keeps API keys, SSH keys and backup passwords off your disk. When an AI coding agent needs a key, your phone asks, you tap Allow, and the key goes into that one command. It never lands in a transcript, your shell history or a `.env` file. Every key comes from 24 words you write on paper, so a new phone or laptop gets everything back.
 
-**Status:** in development. The current release, 0.5.0, keeps keys on a Ledger hardware wallet; the phone-approved version is being built here in the open.
+Get the command line tool with `brew install sealctl/tap/sealctl` (Debian, Fedora, Arch, Nix and source builds are in the [sealctl README](https://github.com/sealctl/sealctl#install)) and the phone app from [sealctl.com/docs#install](https://sealctl.com/docs#install).
 
 | Repository | What's in it |
 | --- | --- |

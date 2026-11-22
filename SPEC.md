@@ -26,12 +26,12 @@ No `FUNDING.yml`. sealctl is paid for with `sealctl buy`; a GitHub Sponsors butt
 
 ## Profile README
 
-- One mark (light and dark through `<picture>`), the headline, one paragraph, a status line, the repository table, the security line. Under 30 lines.
+- One mark (light and dark through `<picture>`), the headline, one paragraph, an install line, the repository table, the security line. Under 30 lines.
 - Same claims rules as the website: true and checkable; no counts, badges or quotes.
 - Add a line on the closed part: "The relay that carries sealed requests is closed source. Its API is public in [`docs/protocol.md`](https://github.com/sealctl/sealctl/blob/main/docs/protocol.md#relay-api), and your data opens without it."
 - Add the website and `security.txt` once `sealctl.com` is live.
 - Update when:
-  - a release changes the status line (today: "in development; 0.5.0 keeps keys on a Ledger"; with 0.6.0: "in development; 0.6.0 keeps keys on a Ledger and hands them back with `sealctl unseal --all`"; at launch: the current version and the store links);
+  - an install channel is added or removed (the install line points at Homebrew, the `sealctl` README and `sealctl.com/docs#install`; it names no version);
   - a public repository is added, renamed or archived;
   - the headline changes on the website (they must match).
 - Images are referenced by `raw.githubusercontent.com/sealctl/.github/main/...` so they render on the org page.
@@ -68,7 +68,7 @@ Contributor Covenant 2.1, unchanged. Enforcement contact: `support@sealctl.com`.
 | Need | Where |
 | --- | --- |
 | How do I…? | Docs at `sealctl.com/docs` |
-| Leaving sealctl, or the Ledger version | `sealctl.com/docs/leaving`, `sealctl.com/docs/from-ledger` |
+| Leaving sealctl | `sealctl.com/docs/leaving` |
 | Bug | Issue in the repository it concerns (`sealctl` if unsure) |
 | Feature request | Issue in `sealctl` |
 | Licence, invoice, refund | `support@sealctl.com` |

@@ -7,7 +7,7 @@
 
 ### Keys for developers and their AI agents
 
-API keys, SSH and git signing keys, encrypted volumes and backups, opened only when your phone approves. One tap per use; your AI agents never see the key. When an agent needs a key, your phone asks, you tap Allow, and the key goes into that one command. It never lands in a transcript, your shell history or a `.env` file. Every key comes from 24 words you write on paper, so a new phone or laptop gets everything back.
+API keys, SSH and git signing keys, encrypted volumes and backups, unlocked from your phone: once per work session or on every use. Your AI agents never see the key. When an agent needs a key, your phone asks, you tap Allow, and the key goes into that one command. It never lands in a transcript, your shell history or a `.env` file. Every key comes from 24 words you write on paper, so a new phone or laptop gets everything back.
 
 Get the command line tool with `brew install sealctl/tap/sealctl` (Debian, Fedora, Arch, Nix and source builds are in the [sealctl README](https://github.com/sealctl/sealctl#install)) and the phone app from [sealctl.com/docs#install](https://sealctl.com/docs#install).
 
